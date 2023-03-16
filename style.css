@@ -1,0 +1,147 @@
+
+body { background-image: url("2.jpg"); }
+/* Reset default margin and padding */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar styles */
+nav {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Banner Section styles */
+.banner {
+    background-image: url(1.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Featured Products Section styles */
+.featured-products {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #f1f1f1;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+
+.product img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.product h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.product h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.btn-primary {
+    background-color: #008CBA;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #005266;
+}
+
+/* Footer Section styles */
+footer {
+    background-color: #6d79eb;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
