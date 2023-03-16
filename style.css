@@ -1,5 +1,7 @@
 
-body { background-image: url("2.jpg"); }
+/*body { background-image: url("2.jpg");
+
+}*/
 /* Reset default margin and padding */
 
 * {
@@ -81,7 +83,7 @@ nav a:hover {
 }
 
 .product {
-    background-color: #f1f1f1;
+    background-color:white;
     margin: 20px;
     text-align: center;
     padding: 20px;
